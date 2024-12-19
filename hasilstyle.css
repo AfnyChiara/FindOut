@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/pink-background_361591-2873.jpg?t=st=1732892694~exp=1732896294~hmac=b9208455f34878149868d02b3ccf0763f089f5c1e50b51b6e9219455bd404738&w=1060);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8); /* Transparansi latar belakang */
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 500px; /* Sesuaikan dengan card di laman pertanyaan */
+    text-align: center;
+    overflow: hidden; /* Pastikan tidak ada elemen yang keluar */
+    position: relative;
+    margin: 20px;
+}
+
+
+.card img {
+    width: 60%; /* Sesuaikan ukuran gambar */
+    margin: 20px auto;
+    display: block;
+    border-radius: 15px;
+}
+
+.card h1, .card p {
+    padding: auto;
+    margin: 15px;
+    color: #333;
+}
+
+.start-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 34px;
+    background-color: #C1C9FA;
+    border-radius: 45px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    transition: background-color 0.3s ease;
+    margin: 10px 5px;
+}
+
+.start-btn:hover {
+    background-color: #99a0cf;
+}
+
+.logout {
+    padding-top: 18px;
+
+}
+.logout a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.card p {
+    padding: 10px;
+}
